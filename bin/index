@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var argv = process.argv.slice(2)
+var shebang = require('../dist/index.js')(argv[0])
+console.log(shebang);

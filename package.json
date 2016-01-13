@@ -1,0 +1,35 @@
+{
+  "name": "sha-bang",
+  "version": "0.0.1",
+  "description": "A simple cli helper that outputs a language shebang. sha-bang node -> #!/usr/bin/env node",
+  "main": "./bin/index",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "./node_modules/grunt-cli/bin/grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/sha-bang.git"
+  },
+  "keywords": [
+    "shebang",
+    "sha-bang",
+    "env"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/sha-bang/issues"
+  },
+  "homepage": "https://github.com/Urucas/sha-bang#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "grunt-cli": "^0.1.13",
+    "grunt-babel": "^5.0.3",
+    "load-grunt-tasks": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
