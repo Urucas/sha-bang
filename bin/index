@@ -1,4 +1,7 @@
 #!/usr/bin/env node
 var argv = process.argv.slice(2)
 var shebang = require('../dist/index.js')(argv[0])
-console.log(shebang);
+var ncp = require("copy-paste");
+ncp.copy(shebang, function () {
+  console.log(shebang);
+});

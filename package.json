@@ -1,6 +1,6 @@
 {
   "name": "sha-bang",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple cli helper that outputs a language shebang. sha-bang node -> #!/usr/bin/env node",
   "main": "./bin/index",
   "scripts": {
@@ -30,6 +30,7 @@
     "mocha": "^2.3.3"
   },
   "dependencies": {
+    "copy-paste": "^1.3.0",
     "grunt": "^0.4.5"
   }
 }
